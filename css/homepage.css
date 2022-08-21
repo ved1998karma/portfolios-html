@@ -110,8 +110,8 @@ button:hover{
 main {
   height: calc(100vh - 80px);
   margin: 0 auto;
-  background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(255,255,255,.2)) , url("../assets/person.jpg");
-  background-position: center;
+  background-position: top center, top right 0px;    
+  background-image:linear-gradient(to right , rgba(0,0,0,0.2) , rgba(250,250,250,0.1)), url("../assets/person.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
